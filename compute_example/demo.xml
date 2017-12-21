@@ -1,0 +1,10 @@
+<odoo>
+    <record id="test_partner" model="res.partner">
+        <field name="name">Hello</field>
+    </record>
+    
+    <record id="test_etudiant" model="etudiant">
+        <field name="partner_id" ref="test_partner" />
+        <field name="age">25</field>
+    </record>
+</odoo>
